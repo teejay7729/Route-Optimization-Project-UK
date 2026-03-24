@@ -2,123 +2,172 @@
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
 ![Data](https://img.shields.io/badge/Data-10K%2B%20Records-blue?style=for-the-badge)
 
-# Route-Optimization-Project-UK
+# 🚦 Route Optimization Project — UK Road Network
 
-![Dashboard Screenshot](https://raw.githubusercontent.com/teejay7729/Route-Optimization-Project-UK/refs/heads/master/Route_Optimization_Project_UK/Dashboard_screenshots/Dashboard.png)
-
-## Table of Contents
-- [Business Problem](#-1-business-problem)
-- [Dataset Overview](#-2-dataset-overview)
-- [Tools & Techniques](#-3-tools--techniques-used)
-- [Dashboard Features](#-4-dashboard-features)
-- [Key Insights](#-5-key-insights)
-- [Business Impact](#-6-business-impact)
-- [What I Learned](#-7-what-i-learned)
-- [Repository Contents](#-8-repository-contents)
+A Power BI analytics project exploring congestion patterns, travel times, and road performance across the UK.  
+This dashboard helps identify bottlenecks, peak‑hour behaviour, and high‑impact road segments for optimization.
 
 ---
 
-### Dashboard Overview
+## 📊 Dashboard Preview
+
 ![Dashboard Screenshot](https://raw.githubusercontent.com/teejay7729/Route-Optimization-Project-UK/refs/heads/master/Route_Optimization_Project_UK/Dashboard_screenshots/Dashboard.png)
 
-### KPI Summary
+---
+
+## 📚 Table of Contents
+- [1. Business Problem](#1-business-problem)
+- [2. Dataset Overview](#2-dataset-overview)
+- [3. Tools & Techniques Used](#3-tools--techniques-used)
+- [🏗️ Detailed Architecture](#️-detailed-architecture)
+- [4. Dashboard Features](#4-dashboard-features)
+- [5. Key Insights](#5-key-insights)
+- [6. Business Impact](#6-business-impact)
+- [7. What I Learned](#7-what-i-learned)
+
+---
+
+## 1. Business Problem
+
+UK road networks experience fluctuating congestion, speed, and travel time depending on:
+- Road type  
+- Time of day  
+- Segment characteristics  
+- Traffic volume  
+
+**Objective:**  
+Build a dashboard that helps planners and analysts:
+- Identify congestion hotspots  
+- Understand peak travel times  
+- Compare performance across road types  
+- Highlight critical segments for optimization  
+- Support data‑driven transport decisions  
+
+---
+
+## 2. Dataset Overview
+
+The dataset contains **10,000+ road segment records**, including:
+- `segment_id`
+- `avg_speed_kmh`
+- `avg_travel_time_s`
+- `congestion_index`
+- `total_trips`
+- `HourOfDay`
+- `highway` (motorway, primary, living street, etc.)
+
+This enables both **segment‑level** and **time‑of‑day** analysis.
+
+---
+
+## 3. Tools & Techniques Used
+
+### 🔧 Tools
+- **Python (VS Code)** — preprocessing, cleaning, Parquet export  
+- **Power BI** — data modeling, DAX, visuals  
+- **Power Query** — final transformations  
+
+### 📐 Techniques
+- ETL pipeline (CSV → Python → Parquet → Power BI)  
+- KPI design  
+- Interactive slicers  
+- Insight storytelling  
+- Time‑series analysis  
+- Congestion pattern analysis  
+
+---
+
+## 🏗️ Detailed Architecture
+
+This project uses a hybrid workflow combining Python preprocessing with Power BI analytics.
+
+┌──────────────────────────────────────────────────────────────┐  
+│                        Data Source                           │  
+│   • UK Road Segment Dataset (CSV)                            │  
+└──────────────────────────────────────────────────────────────┘  
+                               │  
+                               ▼  
+┌──────────────────────────────────────────────────────────────┐  
+│                     Python Preprocessing                     │  
+│   • VS Code (Python)                                         │  
+│   • Pandas for cleaning & transformation                     │  
+│   • Outlier handling                                         │  
+│   • Feature engineering                                      │  
+│   • Export to Parquet for optimized analytics                │  
+└──────────────────────────────────────────────────────────────┘  
+                               │  
+                               ▼  
+┌──────────────────────────────────────────────────────────────┐  
+│                     Power BI Data Layer                      │  
+│   • Import Parquet                                            │  
+│   • Power Query for final shaping                             │  
+│   • Data model (relationships, star schema)                   │  
+│   • DAX measures (KPIs, aggregations)                         │  
+└──────────────────────────────────────────────────────────────┘  
+                               │  
+                               ▼  
+┌──────────────────────────────────────────────────────────────┐  
+│                     Visualization Layer                      │  
+│   • KPI Cards                                                │  
+│   • Scatter Plot                                             │  
+│   • Map Visual                                               │  
+│   • Slicers (Road Type, Hour)                                │  
+│   • Insights Panel                                           │  
+└──────────────────────────────────────────────────────────────┘  
+                               │  
+                               ▼  
+┌──────────────────────────────────────────────────────────────┐  
+│                     Insights & Output                        │  
+│   • Congestion hotspots                                      │  
+│   • Peak travel times                                        │  
+│   • High‑impact segments                                     │  
+│   • Recommendations for planners                             │  
+└──────────────────────────────────────────────────────────────┘  
+
+---
+
+## 4. Dashboard Features
+
+### 🧮 KPI Summary
 ![KPI](https://raw.githubusercontent.com/teejay7729/Route-Optimization-Project-UK/refs/heads/master/Route_Optimization_Project_UK/Dashboard_screenshots/KPI.png)
 
-### Scatter Chart
+### 📈 Scatter Chart — Trips vs Congestion
 ![Scatter](https://raw.githubusercontent.com/teejay7729/Route-Optimization-Project-UK/refs/heads/master/Route_Optimization_Project_UK/Dashboard_screenshots/Scatter.png)
 
-### Insights
+### 💡 Insights Panel
 ![Insights](https://raw.githubusercontent.com/teejay7729/Route-Optimization-Project-UK/refs/heads/master/Route_Optimization_Project_UK/Dashboard_screenshots/Insights.png)
 
-### Slicer 
+### 🎛️ Slicer Panel
 ![Slicer Effective](https://raw.githubusercontent.com/teejay7729/Route-Optimization-Project-UK/refs/heads/master/Route_Optimization_Project_UK/Dashboard_screenshots/SlicerEffective.png)
 
 ---
 
-📌 **1. Business Problem**  
-UK road networks experience varying levels of congestion, speed, and travel time depending on the segment, time of day, and road type.
+## 5. Key Insights
 
-The goal of this project was to:
-- Identify congestion hotspots  
-- Understand peak travel times  
-- Compare performance across road types  
-- Highlight critical segments for route optimization  
-- Provide insights that support transport planning and operational decisions  
-
-This dashboard enables analysts and planners to quickly identify problem areas and make data‑driven decisions.
+- **Segment 259919** shows high congestion + low speed → major bottleneck.  
+- **Segment 282272** appears across multiple metrics → critical route.  
+- Congestion peaks **7–9 AM** and **5 PM**, matching commuter patterns.  
+- Motorways show **higher travel times during peak hours** despite higher speed limits.  
+- Scatter plot reveals a **positive correlation** between trips and congestion with notable outliers.  
 
 ---
 
-📊 **2. Dataset Overview**  
-The dataset includes 10,000+ road segment records with:
-- segment_id  
-- avg_speed_kmh  
-- avg_travel_time_s  
-- congestion_index  
-- total_trips  
-- HourOfDay  
-- highway (motorway, primary, living street, etc.)  
+## 6. Business Impact
 
----
-
-🛠️ **3. Tools & Techniques Used**
-- Power BI (data modeling, DAX, visuals, slicers)
-- Data cleaning & transformation
-- Interactive dashboard design
-- Insight extraction & storytelling
-
-Key Power BI elements:
-- KPI cards  
-- Bar charts  
-- Line charts  
-- Scatter plot  
-- Map visual  
-- Slicers (road type, hour of day)  
-- Insight panel  
-
----
-
-📈 **4. Dashboard Features**
-
-**A. KPI Summary**
-- Total Trips  
-- Average Speed  
-- Average Travel Time  
-- Congestion Index  
-
-**B. Visuals**
-- Map of UK segments  
-- Travel time vs hour of day  
-- Top segments by trips  
-- Most congested segments  
-- Slowest segments by speed  
-- Trips vs Congestion scatter plot  
-- Interactive slicers  
-- Key Insights panel  
-
----
-
-🔍 **5. Key Insights**
-- Segment 259919 shows both high congestion and low speed → major bottleneck.  
-- Segment 282272 appears across multiple metrics → critical route.  
-- Congestion peaks 7–9 AM and 5 PM, matching commuter patterns.  
-- Motorways show higher travel times during peak hours despite higher speed limits.  
-- Scatter plot shows a positive relationship between trips and congestion with notable outliers.  
-
----
-
-🚀 **6. Business Impact**
-This dashboard can support:
+This dashboard supports:
 - Route optimization  
 - Traffic management  
 - Infrastructure planning  
 - Peak‑hour strategy  
 - Resource allocation  
 
+It gives decision‑makers a clear, interactive view of where congestion occurs and why.
+
 ---
 
-🧠 **7. What I Learned**
-- How to design a full analytical story in Power BI  
-- How to combine KPIs, slicers, and visuals into a cohesive dashboard  
-- How to extract insights that matter to stakeholders  
-- How to structure a portfolio‑ready BI project  
+## 7. What I Learned
+
+- Designing a full analytical story in Power BI  
+- Combining KPIs, slicers, and visuals into a cohesive dashboard  
+- Extracting insights that matter to stakeholders  
+- Structuring a portfolio‑ready BI project  
