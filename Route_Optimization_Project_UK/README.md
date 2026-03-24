@@ -4,7 +4,7 @@
 
 
 # Route-Optimization-Project-UK
-![Dashboard_Screenshot](Route_Optimization_Project_UK/Dashboard screenshots/Dashboard.png)
+![Dashboard_Screenshot](Route_Optimization_Project_UK/Dashboard_screenshots/Dashboard.png)
 
 ## Table of Contents
 - [Business Problem](#-1-business-problem)
@@ -17,7 +17,7 @@
 - [Repository Contents](#-8-repository-contents)
 
 ### Dashboard Overview
-![Dashboard_Screenshot](Route_Optimization_Project_UK/Dashboard screenshots/Dashboard.png)
+![Dashboard_Screenshot](Route_Optimization_Project_UK/Dashboard_screenshots/Dashboard.png)
 
 ### Kpi Summary
 ![Dashboard Screenshot](KPI.png)
