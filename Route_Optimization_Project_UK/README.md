@@ -3,7 +3,7 @@
 ![Data](https://img.shields.io/badge/Data-10K%2B%20Records-blue?style=for-the-badge)
 
 # Route-Optimization-Project-UK
-![Dashboard Screenshot](Route_Optimization_Project_UK/Dashboard_screenshots/Dashboard.png)
+![Dashboard_Screenshot](Route_Optimization_Project_UK/Dashboard_screenshots/Dashboard.png)
 
 ## Table of Contents
 - [Business Problem](#-1-business-problem)
