@@ -32,7 +32,7 @@
 ![Dashboard Screenshot](SlicerEffective.png)
 
 
- 1. Business Problem
+📌1. Business Problem
 UK road networks experience varying levels of congestion, speed, and travel time depending on the segment, time of day, and road type.
 The goal of this project was to:
 - Identify congestion hotspots
@@ -42,7 +42,7 @@ The goal of this project was to:
 - Provide insights that support transport planning and operational decisions
 This dashboard enables analysts and planners to quickly identify problem areas and make data‑driven decisions.
 
- 2. Dataset Overview
+📊 2. Dataset Overview
 The dataset includes 10,000+ road segment records with:
 - segment_id
 - avg_speed_kmh
@@ -53,7 +53,7 @@ The dataset includes 10,000+ road segment records with:
 - highway (motorway, primary, living street, etc.)
 This allowed for both segment‑level analysis and time‑of‑day patterns.
 
- 3. Tools & Techniques Used
+ 🛠️3. Tools & Techniques Used
 - Power BI (data modeling, DAX, visuals, slicers)
 - Data cleaning & transformation
 - Interactive dashboard design
@@ -67,7 +67,7 @@ Key Power BI elements:
 - Slicers (road type, hour of day)
 - Insight panel
 
- 4. Dashboard Features
+📈4. Dashboard Features
 A. KPI Summary
 - Total Trips
 - Average Speed
@@ -83,7 +83,7 @@ B. Visuals
 - Interactive slicers for road type and hour of day
 - Key Insights panel
 
- 5. Key Insights
+🔍 5. Key Insights
 - Segment 259919 shows both high congestion and low speed → major bottleneck.
 - Segment 282272 appears across multiple metrics → critical route.
 - Congestion peaks 7–9 AM and 5 PM, matching commuter patterns.
@@ -91,7 +91,7 @@ B. Visuals
 - Scatter plot shows a positive relationship between trips and congestion with notable outliers.
 These insights help identify where improvements or rerouting could have the biggest impact.
 
- 6. Business Impact
+🚀 6. Business Impact
 This dashboard can support:
 - Route optimization
 - Traffic management
