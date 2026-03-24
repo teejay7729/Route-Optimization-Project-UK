@@ -4,7 +4,7 @@
 
 
 # Route-Optimization-Project-UK
-![Dashboard_Screenshot](Route_Optimization_Project_UK/Dashboard_screenshots/Dashboard.png)
+Route_Optimization_Project_UK/Dashboard_screenshots/Dashboard.png
 
 ## Table of Contents
 - [Business Problem](#-1-business-problem)
