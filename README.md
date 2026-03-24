@@ -29,7 +29,9 @@
 ![Dashboard Screenshot](Insights.png)
 
 ### Slicer 
-![Dashboard Screenshot](Slicer Effective.png)
+![Dashboard Screenshot](SlicerEffective.png)
+
+
  1. Business Problem
 UK road networks experience varying levels of congestion, speed, and travel time depending on the segment, time of day, and road type.
 The goal of this project was to:
