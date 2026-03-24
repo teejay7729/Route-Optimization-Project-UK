@@ -1,4 +1,21 @@
+![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
+![Data](https://img.shields.io/badge/Data-10K%2B%20Records-blue?style=for-the-badge)
+
+
 # Route-Optimization-Project-UK
+![Dashboard Screenshot](Dashboard.png)
+
+## Table of Contents
+- [Business Problem](#-1-business-problem)
+- [Dataset Overview](#-2-dataset-overview)
+- [Tools & Techniques](#-3-tools--techniques-used)
+- [Dashboard Features](#-4-dashboard-features)
+- [Key Insights](#-5-key-insights)
+- [Business Impact](#-6-business-impact)
+- [What I Learned](#-7-what-i-learned)
+- [Repository Contents](#-8-repository-contents)
+
 
  1. Business Problem
 UK road networks experience varying levels of congestion, speed, and travel time depending on the segment, time of day, and road type.
