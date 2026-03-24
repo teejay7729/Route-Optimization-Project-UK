@@ -16,7 +16,20 @@
 - [What I Learned](#-7-what-i-learned)
 - [Repository Contents](#-8-repository-contents)
 
+### Dashboard Overview
+![Dashboard Screenshot](Dashboard.png)
 
+### Kpi Summary
+![Dashboard Screenshot](KPI.png)
+
+### Scatter Chart
+![Dashboard Screenshot](Scatter.png)
+
+### Insights
+![Dashboard Screenshot](Insights.png)
+
+### Slicer 
+![Dashboard Screenshot](Slicer Effective.png)
  1. Business Problem
 UK road networks experience varying levels of congestion, speed, and travel time depending on the segment, time of day, and road type.
 The goal of this project was to:
