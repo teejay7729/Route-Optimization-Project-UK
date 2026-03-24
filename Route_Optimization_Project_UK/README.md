@@ -19,6 +19,7 @@ This dashboard helps identify bottlenecks, peak‑hour behaviour, and high‑imp
 - [1. Business Problem](#1-business-problem)
 - [2. Dataset Overview](#2-dataset-overview)
 - [3. Tools & Techniques Used](#3-tools--techniques-used)
+- [🧰 Tech Stack](#-tech-stack)
 - [🏗️ Detailed Architecture](#️-detailed-architecture)
 - [4. Dashboard Features](#4-dashboard-features)
 - [5. Key Insights](#5-key-insights)
@@ -74,6 +75,28 @@ This enables both **segment‑level** and **time‑of‑day** analysis.
 - Insight storytelling  
 - Time‑series analysis  
 - Congestion pattern analysis  
+
+---
+
+## 🧰 Tech Stack
+
+**Languages & Processing**
+- Python (Pandas, NumPy)
+- M Query (Power Query)
+
+**Tools & Environments**
+- VS Code (Python scripting, ETL)
+- Power BI Desktop (Modeling & Visualization)
+- Git & GitHub (Version control)
+
+**Data Formats**
+- CSV (raw input)
+- Parquet (optimized analytics format)
+
+**Analytics & Modeling**
+- DAX (Measures & KPIs)
+- Data Modeling (Star schema)
+- Power Query Transformations
 
 ---
 
