@@ -16,7 +16,7 @@ This dashboard helps identify bottlenecks, peak‑hour behaviour, and high‑imp
 
 ## 📊 Dashboard Preview
 
-![Dashboard Screenshot](https://raw.githubusercontent.com/teejay7729/Route-Optimization-Project-UK/refs/heads/master/Route_Optimization_Project_UK/Dashboard_screenshots/Dashboard.png)
+![Dashboard Screenshot](https://raw.githubusercontent.com/teejay7729/Route-Optimization-Project-UK/refs/heads/master/Visuals/Dashboard.png)
 
 ---
 
@@ -157,17 +157,17 @@ This project uses a hybrid workflow combining Python preprocessing with Power BI
 ## 4. Dashboard Features
 
 ### 🧮 KPI Summary
-![KPI](https://raw.githubusercontent.com/teejay7729/Route-Optimization-Project-UK/refs/heads/master/Route_Optimization_Project_UK/Dashboard_screenshots/KPI.png)
+![KPI](https://raw.githubusercontent.com/teejay7729/Route-Optimization-Project-UK/refs/heads/master/Visuals/KPI.png)
 
 ### 📈 Scatter Chart — Trips vs Congestion
-![Scatter](https://raw.githubusercontent.com/teejay7729/Route-Optimization-Project-UK/refs/heads/master/Route_Optimization_Project_UK/Dashboard_screenshots/Scatter.png)
+![Scatter](https://raw.githubusercontent.com/teejay7729/Route-Optimization-Project-UK/refs/heads/master/Visuals/Scatter.png)
 
 ### 💡 Insights Panel
-![Insights](https://raw.githubusercontent.com/teejay7729/Route-Optimization-Project-UK/refs/heads/master/Route_Optimization_Project_UK/Dashboard_screenshots/Insights.png)
+![Insights](https://raw.githubusercontent.com/teejay7729/Route-Optimization-Project-UK/refs/heads/master/Visuals/Insights.png)
 
-![Insights](https://raw.githubusercontent.com/teejay7729/Route-Optimization-Project-UK/refs/heads/master/Route_Optimization_Project_UK/Dashboard_screenshots/Insight.png)
+![Insights](https://raw.githubusercontent.com/teejay7729/Route-Optimization-Project-UK/refs/heads/master/Visuals/Insight.png)
 ### 🎛️ Slicer Panel
-![Slicer Effective](https://raw.githubusercontent.com/teejay7729/Route-Optimization-Project-UK/refs/heads/master/Route_Optimization_Project_UK/Dashboard_screenshots/SlicerEffective.png)
+![Slicer Effective](https://raw.githubusercontent.com/teejay7729/Route-Optimization-Project-UK/refs/heads/master/Visuals/SlicerEffective.png)
 
 ---
 
