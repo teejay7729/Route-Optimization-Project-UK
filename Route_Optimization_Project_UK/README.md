@@ -160,6 +160,7 @@ This project uses a hybrid workflow combining Python preprocessing with Power BI
 ### 💡 Insights Panel
 ![Insights](https://raw.githubusercontent.com/teejay7729/Route-Optimization-Project-UK/refs/heads/master/Route_Optimization_Project_UK/Dashboard_screenshots/Insights.png)
 
+![Insights](https://raw.githubusercontent.com/teejay7729/Route-Optimization-Project-UK/refs/heads/master/Route_Optimization_Project_UK/Dashboard_screenshots/Insight.png)
 ### 🎛️ Slicer Panel
 ![Slicer Effective](https://raw.githubusercontent.com/teejay7729/Route-Optimization-Project-UK/refs/heads/master/Route_Optimization_Project_UK/Dashboard_screenshots/SlicerEffective.png)
 
