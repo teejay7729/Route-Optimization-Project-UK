@@ -16,7 +16,7 @@ This dashboard helps identify bottlenecks, peak‑hour behaviour, and high‑imp
 
 ## 📊 Dashboard Preview
 
-![Dashboard Screenshot](https://raw.githubusercontent.com/teejay7729/Route-Optimization-Project-UK/refs/heads/master/Visuals/Dashboard.png)
+![Dashboard Screenshot](https://raw.githubusercontent.com/teejay7729/Route-Optimization-UK/refs/heads/master/Visuals/Dashboard.png)
 
 ---
 
